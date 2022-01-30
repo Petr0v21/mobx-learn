@@ -1,0 +1,43 @@
+.Post {
+  border: 1px solid #000;
+  border-radius: 12px;
+  width: 20%;
+  padding-left: 1%;
+}
+
+.Post img {
+  width: 80%;
+  padding: 0% 5% 0% 5%;
+}
+
+.Post h1 {
+  font-weight: 700;
+}
+
+.Post label {
+  font-size: large;
+  font-weight: 700;
+  color: rgb(212, 83, 83);
+  transition: all 0.1s ease;
+  padding-bottom: 5%;
+}
+
+.Post label:hover {
+  font-weight: 1000;
+  color: rgb(224, 0, 0);
+  width: 100%;
+}
+
+.LinkToPost {
+  width: 45%;
+  background-color: rgb(97, 187, 116);
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: aliceblue;
+  transition: all 0.5s ease;
+}
+
+.LinkToPost:hover {
+  background: #fff;
+  color: #000;
+}
